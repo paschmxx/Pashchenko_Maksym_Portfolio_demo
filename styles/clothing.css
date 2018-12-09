@@ -1,0 +1,249 @@
+.clothing {
+	background: #0d0739 url(../images/clothing-bg.jpg);
+    margin-top: 86px;
+    min-height: 860px;
+    position: relative;
+}
+
+.clothing__title {
+    color: #ffffff;
+}
+
+.clothing__slider img {
+    display: block;
+    padding-top: 15px;
+    margin: 0 auto;
+}
+
+
+/* SLIDER # 2*/
+
+    @keyframes slidy {
+        0% { left: 0%; }
+        20% { left: 0%; }
+        25% { left: -100%; }
+        45% { left: -100%; }
+        50% { left: -200%; }
+        70% { left: -200%; }
+        75% { left: -300%; }
+        95% { left: -300%; }
+        100% { left: 0%; }
+        }
+        
+        div#slider figure img { 
+            width: 50vw; 
+            float: left; 
+            margin: 0 25vw;
+        }
+
+        div#slider figure img:nth-child(1) {
+            transform: translateY(60px);
+        }
+
+        /* div#slider figure img:nth-child(4) {
+            transform: translateY(-150px);
+        } */
+
+        div#slider figure { 
+          position: relative;
+          width: 500%;
+          margin: 0;
+          left: 0;
+          text-align: left;
+          font-size: 0;
+          animation: 28s slidy infinite; 
+        }
+        
+        .clothing__slider:before {
+            content: '';
+            position: absolute;
+            width: 324px;
+            height: 360px;
+            left: 0;
+            top: 200px;
+            background: url(../images/clothing-left.png);
+        }
+        
+        .clothing__slider:after {
+            content: '';
+            position: absolute;
+            width: 324px;
+            height: 360px;
+            right: 0;
+            top: 200px;
+            background: url(../images/clothing-right.png);
+        }
+
+
+
+
+
+
+
+
+
+        
+.slideshow {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    top: 50%;
+    left: 50%;
+    border: 1px solid #eee;
+    margin: 180px auto;
+}
+
+.slideshow-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: no-repeat 50% 50%;
+    background-size: cover;
+    animation-name: kenburns;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 72s;
+    opacity: 1;
+    transform: scale(1.4);
+    scroll-behavior: smooth;
+}
+
+.slideshow-image:nth-child(1) {
+    animation-name: kenburns-1;
+    background-position: 0 75%;
+    z-index: 3;
+}
+
+.slideshow-image:nth-child(2) {
+    animation-name: kenburns-2;
+    z-index: 2;
+}
+
+.slideshow-image:nth-child(3) {
+    animation-name: kenburns-3;
+    background-position: 50% 75%;
+    z-index: 1;
+}
+
+.slideshow-image:nth-child(4) {
+    animation-name: kenburns-4;
+    z-index: 0;
+}
+
+@keyframes kenburns-1 {
+    0% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    1.5625% {
+        opacity: 1;
+    }
+    23.4375% {
+        opacity: 1;
+    }
+    26.5625% {
+        opacity: 0;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+    98.4375% {
+        opacity: 0;
+        transform: scale(1.2117647059);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes kenburns-2 {
+    23.4375% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    26.5625% {
+        opacity: 1;
+    }
+    48.4375% {
+        opacity: 1;
+    }
+    51.5625% {
+        opacity: 0;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+}
+
+@keyframes kenburns-3 {
+    48.4375% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    51.5625% {
+        opacity: 1;
+    }
+    73.4375% {
+        opacity: 1;
+    }
+    76.5625% {
+        opacity: 0;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+}
+@keyframes kenburns-4 {
+    73.4375% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    76.5625% {
+        opacity: 1;
+    }
+    98.4375% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+
+
+
+.slideshow {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.clothing-1 {
+  background-image: url(../images/clothing-1.png);
+  z-index: -1;
+}
+
+.clothing-2 {
+  background-image: url(../images/clothing-2.png);
+  z-index: -1;
+}
+
+.clothing-3 {
+  background-image: url(../images/clothing-3.png);
+  z-index: -1;
+}
+
+.clothing-4 {
+  background-image: url(../images/clothing-4.png);
+  z-index: -1;
+}

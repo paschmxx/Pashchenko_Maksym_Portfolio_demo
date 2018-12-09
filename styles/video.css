@@ -1,0 +1,48 @@
+.body--video {
+	position: relative;
+	min-height: 100%;
+	background: #0d0739 url(../images/header-bg.jpg);
+	background-size: cover;
+}
+
+.videobox {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.videobox video {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.video-btn {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	text-decoration: none;
+	padding: 10px 5px;
+	border: 5px solid #fff;
+	border-radius: 5px;
+	font-family: "Neris-Black", sans-serif;
+	max-width: 99vw;
+}
+
+.video-btns {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	text-decoration: none;
+	padding: 10px 5px;
+	border: 5px solid #fff;
+	border-radius: 5px;
+	font-family: "Neris-Black", sans-serif;
+	position: absolute;
+	bottom: 0;
+	width: 95vw;
+}
