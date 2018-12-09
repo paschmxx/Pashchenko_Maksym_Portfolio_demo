@@ -5,9 +5,14 @@ Personal Website of Maksym Pashchenko (me), where users can see my works in spec
 𝗕𝘂𝗶𝗹𝘁 𝗪𝗶𝘁𝗵
 
 -html
+
 -css
+
 -js
+
 -php
+
 -sql
+
 -Formspree (email service)
 
