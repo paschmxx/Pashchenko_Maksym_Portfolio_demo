@@ -16,3 +16,7 @@ Personal Website of Maksym Pashchenko (me), where users can see my works in spec
 
 -Formspree (email service)
 
+𝗔𝘂𝘁𝗵𝗼𝗿𝘀
+
+Pashchenko Maksym
+
